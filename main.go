@@ -28,7 +28,7 @@ func uniq(input io.Reader, output io.Writer) error {
 	return nil
 }
 
-func main()  {
+func main() {
 	err := uniq(os.Stdin, os.Stdout)
 	if err != nil {
 		panic(err.Error())

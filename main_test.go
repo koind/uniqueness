@@ -1,10 +1,10 @@
 package main
 
 import (
-	"testing"
 	"bufio"
-	"strings"
 	"bytes"
+	"strings"
+	"testing"
 )
 
 var testOk = `1
